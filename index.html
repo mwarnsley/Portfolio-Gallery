@@ -2,55 +2,76 @@
 <html>
 	<head>
 		<title>Portfolio Gallery | View Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css"></li>
 		<link rel="stylesheet" type="text/css" href="css/lightbox.css"></li>
 	</head>
-	<body>
+	<body onload="showModal()">
+		<div id="content">
+			<header>
+				<div class="container2">
+					<h1 class="logo">Portfolio Gallery</h1>
+					<nav>
+						<ul>
+							<li><a href="#">All Projects</a></li>
+							<li><a href="#">Design</a></li>
+							<li><a href="#">Programming</a></li>
+							<li><a href="#">CMS</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
 
-	<header>
-		<div class="container">
-			<h1 class="logo">Portfolio Gallery</h1>
-			<nav>
-				<ul>
-					<li><a href="#">All Projects</a></li>
-					<li><a href="#">Design</a></li>
-					<li><a href="#">Programming</a></li>
-					<li><a href="#">CMS</a></li>
-				</ul>
-			</nav>
+			<section class="tagline">
+				<div class="container2">
+					<h1>View Our Work</h1>
+				</div>
+			</section>
+
+				<section>
+					<div class="container2">
+						<h1 id="heading">All Projects</h1>
+						<ul id="gallery">
+							<li class="design"><a href="img/web1.jpg" data-lightbox="projects" data-title="Project 1" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web1.jpg"></a></li>
+							<li class="design programming"><a href="img/web2.jpg" data-lightbox="projects" data-title="Project 2" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web2.jpg"></a></li>
+							<li class="cms"><a href="img/web3.jpg" data-lightbox="projects" data-title="Project 3" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web3.jpg"></a></li>
+							<li class="cms design"><a href="img/web4.jpg" data-lightbox="projects" data-title="Project 4" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web4.jpg"></a></li>
+							<li class="design cms programming"><a href="img/web5.jpg" data-lightbox="projects" data-title="Project 5" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web5.jpg"></a></li>
+							<li class="design"><a href="img/web6.jpg" data-lightbox="projects" data-title="Project 6" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web6.jpg"></a></li>
+							<li class="programming"><a href="img/web7.jpg" data-lightbox="projects" data-title="Project 7" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web7.jpg"></a></li>
+							<li class="cms design"><a href="img/web8.jpg" data-lightbox="projects" data-title="Project 8" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web8.jpg"></a></li>
+							<li class="cms"><a href="img/web9.jpg" data-lightbox="projects" data-title="Project 9" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web9.jpg"></a></li>
+							<li class="programming design cms"><a href="img/web10.jpg" data-lightbox="projects" data-title="Project 10" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web10.jpg"></a></li>
+						</ul>
+					</div>
+				</section>
+
+			<footer>
+				<p>Copyright &copy; 2016 All Rights Reserved</p>
+			</footer>
 		</div>
-	</header>
-
-	<section class="tagline">
-		<div class="container">
-			<h1>View Our Work</h1>
-		</div>
-	</section>
-
-		<section>
-			<div class="container">
-				<h1 id="heading">All Projects</h1>
-				<ul id="gallery">
-					<li class="design"><a href="img/web1.jpg" data-lightbox="projects" data-title="Project 1" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web1.jpg"></a></li>
-					<li class="design programming"><a href="img/web2.jpg" data-lightbox="projects" data-title="Project 2" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web2.jpg"></a></li>
-					<li class="cms"><a href="img/web3.jpg" data-lightbox="projects" data-title="Project 3" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web3.jpg"></a></li>
-					<li class="cms design"><a href="img/web4.jpg" data-lightbox="projects" data-title="Project 4" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web4.jpg"></a></li>
-					<li class="design cms programming"><a href="img/web5.jpg" data-lightbox="projects" data-title="Project 5" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web5.jpg"></a></li>
-					<li class="design"><a href="img/web6.jpg" data-lightbox="projects" data-title="Project 6" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web6.jpg"></a></li>
-					<li class="programming"><a href="img/web7.jpg" data-lightbox="projects" data-title="Project 7" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web7.jpg"></a></li>
-					<li class="cms design"><a href="img/web8.jpg" data-lightbox="projects" data-title="Project 8" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web8.jpg"></a></li>
-					<li class="cms"><a href="img/web9.jpg" data-lightbox="projects" data-title="Project 9" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web9.jpg"></a></li>
-					<li class="programming design cms"><a href="img/web10.jpg" data-lightbox="projects" data-title="Project 10" data-desc="Lorem ipsum dolor sit amet, consectetur adipiscing elituctor vitae velit mollis"><img src="img/web10.jpg"></a></li>
-				</ul>
-			</div>
-		</section>
-
-	<footer>
-		<p>Copyright &copy; 2016 All Rights Reserved</p>
-	</footer>
+                <div id="modal">
+                    <div class="content-container">
+                        <div class="box-content-container">
+                            <div class="exit btn">X</div>
+                            <p class="demo-material">This project is demo material only. None of the content pieces are apart of an actual portfolio. This is just a demonstration of a portfolio website.</p>
+                        </div>
+                    </div>
+                </div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
 		<script type="text/javascript" src="js/lightbox.js"></script>
+        <script>
+        		function showModal(){
+	                var $modal = $("#modal");
+	                
+	                $modal.addClass("popit");
+
+	                $(".exit").on("click", function(){
+	                    $modal.removeClass("popit");
+	                });
+        		}
+        </script>
 	</body>
 </html>

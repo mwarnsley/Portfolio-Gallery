@@ -52,7 +52,7 @@ section{
 	overflow: hidden;
 }
 
-.container{
+.container2{
 	margin: auto;
 	overflow: auto;
 	width: 80%;
@@ -124,6 +124,47 @@ footer{
 .overlay h3{
 	margin: 0;
 	padding: 0;
+}
+
+/*****CSS For the Modal Popup************/
+
+#content{
+    position: relative;
+}
+#modal{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: black;
+    transform: scale(0,0);
+    transition: transform 500ms;
+}
+#modal.popit{
+    transform: scale(1,1);
+}
+.exit{
+    position: relative;
+    left: 96%;
+}
+.box-content-container{
+    background-color: white;
+    border: 1px solid black;
+    width: 50%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+p.demo-material{
+	font-size: 35px;
+	line-height: 1.6em;
+    padding: 75px;   
 }
 
 /****MEDIA QUERIE******/
