@@ -1,1 +1,40 @@
-ECHO is on.
+body{
+	color: #666;
+	font-family: "Arial", sans-serif;
+	font-size: 15px;
+	line-height: 1.6em;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	color: #666;
+	text-decoration: none;
+}
+
+header{
+	background: #333;
+	color: #fff;
+	min-height: 55px;
+}
+
+nav{
+	float: right;
+	width: 70%;
+}
+
+header a{
+	color: #fff;
+}
+
+.container{
+	margin: auto;
+	overflow: auto;
+	width: 80%;
+}
+
+.logo{
+	float: left;
+	margin-top: 15px;
+	width: 30%;
+}
