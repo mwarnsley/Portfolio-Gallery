@@ -12,10 +12,18 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+	text-decoration: none;
+}
+
 header{
 	background: #333;
 	color: #fff;
 	min-height: 55px;
+}
+
+ul{
+	margin-top: 15px;
 }
 
 nav{
