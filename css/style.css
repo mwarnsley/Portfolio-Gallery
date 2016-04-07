@@ -23,6 +23,26 @@ nav{
 	width: 70%;
 }
 
+nav ul{
+	float: right;
+}
+
+nav li{
+	float: left;
+	list-style: none;
+	padding: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	padding-bottom: 5px;
+}
+
+nav li.current a, nav a:hover{
+	color: #03899c;
+	border-bottom: 3px solid #03899c;
+}
+
 header a{
 	color: #fff;
 }
