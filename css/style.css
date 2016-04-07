@@ -104,3 +104,24 @@ footer{
 	padding-top: 10px;
 	text-align: center;
 }
+
+.overlay{
+	background: #03899c url(../img/overlay.png) no-repeat top center;
+	border-radius: 5px;
+	box-sizing: border-box;;
+	color: #fff;
+	display: none;
+	height: 100%;
+	left: 0;
+	padding: 20px;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	width: 100%
+	z-index: 100;
+}
+
+.overlay h3{
+	margin: 0;
+	padding: 0;
+}

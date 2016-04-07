@@ -30,4 +30,45 @@ $(document).ready(function(){
 	});
 
 
+	// Mouse Enter Event for overlay
+	$("ul#gallery").on("mouseenter", "li", function(){
+		// get data attribute values
+		var title = $(this).children().data("title");
+		var desc = $(this).children().data("desc");
+
+		// Validation for missing title or desc
+		if(desc === null){
+			desc == "Click To Enlarge";
+		}
+
+		if(title === null){
+			title == "";
+		}
+
+		// Create overlay div
+		$(this).append('<div class="overlay"></div>');
+
+		// Get overlay div
+		var overlay = $(this).children('.overlay');
+
+		// Add html to overlay
+		overlay.html('<h3>'+title+'<p>'+desc+'</p></h3>');
+
+		//Fade in the overlay
+		overlay.fadeIn(800);
+	});
+
+	// Mouse Leave Event for overlay
+	$("ul#gallery").on("mouseleave", "li", function(){
+
+		// Create overlay div
+		$(this).append('<div class="overlay"></div>');
+
+		// Get overlay div
+		var overlay = $(this).children('.overlay');
+
+		//Fade in the overlay
+		overlay.fadeOut(800);
+	});
+
 });
